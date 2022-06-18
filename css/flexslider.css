@@ -15,18 +15,18 @@
 .flexslider a:focus  {outline: none;}
 .slides,
 .flex-control-nav,
-.flex-direction-nav {margin: 0; padding: 0; list-style: none;} 
+.flex-direction-nav {margin: 0; padding: 0; list-style: none;}
 
 /* FlexSlider Necessary Styles
-*********************************/ 
+*********************************/
 .flexslider {margin: 0; padding: 0;}
 .flexslider .slides > li {display: none; -webkit-backface-visibility: hidden;} /* Hide the slides before the JS is loaded. Avoids image jumping */
 .flexslider .slides img {width: ; display: ;border-radius: ;}
 .flex-pauseplay span {text-transform: capitalize;}
 
 /* Clearfix for the .slides element */
-.slides:after {content: "."; display: block; clear: both; visibility: hidden; line-height: 0; height: 0;} 
-html[xmlns] .slides {display: block;} 
+.slides:after {content: "."; display: block; clear: both; visibility: hidden; line-height: 0; height: 0;}
+html[xmlns] .slides {display: block;}
 
 /* No JavaScript Fallback */
 /* If you are not using another script, such as Modernizr, make sure you
@@ -64,7 +64,7 @@ html[xmlns] .slides {display: block;}
 .flex-control-thumbs .active {opacity: 1; cursor: default;}
 /*----flexslider1---*/
 .flexslider1{
-	
+
 }
 .flexslider1 ol.flex-control-nav{
 	width: ;
@@ -96,7 +96,7 @@ max-height: 500px;
 }
 
 @media screen and (max-width: 768px) {
-	
+
 .flex-viewport {
 max-height: 450px;
 }
@@ -133,4 +133,3 @@ margin: 0 0;
 max-height: 320px;
 }
 }
-

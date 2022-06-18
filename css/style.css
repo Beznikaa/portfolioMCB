@@ -40,7 +40,7 @@ body a:hover{
     width: 25%;
 }
 .header-top{
-	padding:1em 0px;
+	padding:2em 0px;
 }
 /*--Header-top-end--*/
 /*--Header-Starts--*/
@@ -87,6 +87,8 @@ body a:hover{
 .hea-rgt {
     float: right;
     margin: 0.6em 0;
+    width: 130px;
+
 }
 .hea-rgt a {
     color: #fff;
@@ -94,6 +96,7 @@ body a:hover{
     padding: 0.5em 1em;
     display: block;
 	text-decoration: none;
+
 }
 .hea-rgt a:hover{
     color: #fff;
@@ -188,7 +191,7 @@ body a:hover{
 /*--Header-Ends--*/
 /*--banner-starts--*/
 .banner{
-	background:url(../images/1.jpg) no-repeat;
+	background:url(../images/comp.jpg) no-repeat;
 	min-height:600px;
 	background-size:cover;
 	-webkit-background-size:cover;
@@ -437,8 +440,8 @@ address {
 }
 /*--clients--*/
 .banner-1{
-	background:url(../images/1.jpg) center fixed;
-	min-height:300px;
+	background:url(../images/comp.jpg) center fixed;
+	min-height:500px;
 	background-size:cover;
 	-webkit-background-size:cover;
 	-moz-background-size:cover;
@@ -590,7 +593,7 @@ address {
     width: 100%;
     height: 190px;
     margin: 1em 0;
-	border: none;	
+	border: none;
 }
 /*--contact--*/
 /*--Typography--*/
@@ -626,7 +629,7 @@ address {
 .label {
   font-weight: 300 !important;
   border-radius:4px;
-}  
+}
 .grid_5{
 	background:none;
 	padding:2em 0;
@@ -634,7 +637,7 @@ address {
 .grid_5 h3, .grid_5 h2, .grid_5 h1, .grid_5 h4, .grid_5 h5, h3.hdg, h3.bars {
 	margin-bottom: 1em;
     color:#9E6E4E;
-   
+
 }
 .table > thead > tr > th, .table > tbody > tr > th, .table > tfoot > tr > th, .table > thead > tr > td, .table > tbody > tr > td, .table > tfoot > tr > td {
   border-top: none !important;
@@ -1081,7 +1084,7 @@ h3.title {
     min-height: 352px;
 }
 .welcome-left {
-    border-right: none ! important; 
+    border-right: none ! important;
 	float:none;
 	width:100%;
 }
